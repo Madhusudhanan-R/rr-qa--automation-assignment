@@ -1,0 +1,58 @@
+name: Playwright Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        browser: [chromium, firefox, webkit] # Run on all three browsers
+
+    steps:
+      # 1. Checkout repo
+      - uses: actions/checkout@v3
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      # 3. Install dependencies
+      - name: Install Dependencies
+        run: |
+          npm install
+          npx playwright install
+
+      # 4. Run Playwright tests
+      - name: Run Playwright Tests
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          npx playwright test --project=${{ matrix.browser }} --reporter=html
+
+      # 5. Upload HTML Report
+      - name: Upload HTML Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-report-${{ matrix.browser }}
+          path: test-results/html-reports
+
+      # 6. Upload Screenshots
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-screenshots-${{ matrix.browser }}
+          path: test-results/screenshots
+
+      # 7️. Upload Traces
+      - name: Upload Traces
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-traces-${{ matrix.browser }}
+          path: test-results/traces
