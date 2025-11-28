@@ -1,0 +1,181 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - link "Discover" [ref=e6]:
+        - /url: /
+        - paragraph [ref=e7]: Discover
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10] [cursor=pointer]:
+            - link "Popular" [active] [ref=e11]:
+              - /url: /popular
+          - listitem [ref=e12] [cursor=pointer]:
+            - link "Trend" [ref=e13]:
+              - /url: /trend
+          - listitem [ref=e14] [cursor=pointer]:
+            - link "Newest" [ref=e15]:
+              - /url: /new
+          - listitem [ref=e16] [cursor=pointer]:
+            - link "Top rated" [ref=e17]:
+              - /url: /top
+      - generic [ref=e18]:
+        - img "Search Icon" [ref=e19]
+        - textbox "SEARCH" [ref=e20]
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - img "Movie Poster" [ref=e25]
+          - paragraph [ref=e26]: Bureau 749
+          - paragraph [ref=e27]: Action, 2024
+        - generic [ref=e28]:
+          - img "Movie Poster" [ref=e29]
+          - paragraph [ref=e30]: The Shadow's Edge
+          - paragraph [ref=e31]: Action, 2025
+        - generic [ref=e32]:
+          - img "Movie Poster" [ref=e33]
+          - paragraph [ref=e34]: The Family Plan 2
+          - paragraph [ref=e35]: Action, 2025
+        - generic [ref=e36]:
+          - img "Movie Poster" [ref=e37]
+          - paragraph [ref=e38]: Zootopia 2
+          - paragraph [ref=e39]: Animation, 2025
+        - generic [ref=e40]:
+          - img "Movie Poster" [ref=e41]
+          - paragraph [ref=e42]: Altered
+          - paragraph [ref=e43]: Science Fiction, 2025
+        - generic [ref=e44]:
+          - img "Movie Poster" [ref=e45]
+          - paragraph [ref=e46]: Frankenstein
+          - paragraph [ref=e47]: Drama, 2025
+        - generic [ref=e48]:
+          - img "Movie Poster" [ref=e49]
+          - paragraph [ref=e50]: "Wicked: For Good"
+          - paragraph [ref=e51]: Fantasy, 2025
+        - generic [ref=e52]:
+          - img "Movie Poster" [ref=e53]
+          - paragraph [ref=e54]: One Battle After Another
+          - paragraph [ref=e55]: Action, 2025
+        - generic [ref=e56]:
+          - img "Movie Poster" [ref=e57]
+          - paragraph [ref=e58]: A Legend
+          - paragraph [ref=e59]: Action, 2024
+        - generic [ref=e60]:
+          - img "Movie Poster" [ref=e61]
+          - paragraph [ref=e62]: The Gentleman
+          - paragraph [ref=e63]: Action, 2025
+        - generic [ref=e64]:
+          - img "Movie Poster" [ref=e65]
+          - paragraph [ref=e66]: Art of Eight Limbs
+          - paragraph [ref=e67]: Action, 2024
+        - generic [ref=e68]:
+          - img "Movie Poster" [ref=e69]
+          - paragraph [ref=e70]: "Predator: Badlands"
+          - paragraph [ref=e71]: Action, 2025
+        - generic [ref=e72]:
+          - img "Movie Poster" [ref=e73]
+          - paragraph [ref=e74]: "JUJUTSU KAISEN: Execution -Shibuya Incident x The Culling Game Begins-"
+          - paragraph [ref=e75]: Animation, 2025
+        - generic [ref=e76]:
+          - img "Movie Poster" [ref=e77]
+          - paragraph [ref=e78]: War of the Worlds
+          - paragraph [ref=e79]: Science Fiction, 2025
+        - generic [ref=e80]:
+          - img "Movie Poster" [ref=e81]
+          - paragraph [ref=e82]: High Ground
+          - paragraph [ref=e83]: Thriller, 2025
+        - generic [ref=e84]:
+          - img "Movie Poster" [ref=e85]
+          - paragraph [ref=e86]: She Rides Shotgun
+          - paragraph [ref=e87]: Action, 2025
+        - generic [ref=e88]:
+          - img "Movie Poster" [ref=e89]
+          - paragraph [ref=e90]: Nahual
+          - paragraph [ref=e91]: Horror, 2025
+        - generic [ref=e92]:
+          - img "Movie Poster" [ref=e93]
+          - paragraph [ref=e94]: "Now You See Me: Now You Don't"
+          - paragraph [ref=e95]: Thriller, 2025
+        - generic [ref=e96]:
+          - img "Movie Poster" [ref=e97]
+          - paragraph [ref=e98]: Playdate
+          - paragraph [ref=e99]: Action, 2025
+        - generic [ref=e100]:
+          - img "Movie Poster" [ref=e101]
+          - paragraph [ref=e102]: "Demon Slayer: Kimetsu no Yaiba Infinity Castle"
+          - paragraph [ref=e103]: Animation, 2025
+      - list [ref=e105]:
+        - listitem [ref=e106]:
+          - button "Previous page" [disabled] [ref=e107]: Previous
+        - listitem [ref=e108]:
+          - button "Page 1 is your current page" [ref=e109]: "1"
+        - listitem [ref=e110]:
+          - button "Page 2" [ref=e111]: "2"
+        - listitem [ref=e112]:
+          - button "Page 3" [ref=e113]: "3"
+        - listitem [ref=e114]:
+          - button "Page 4" [ref=e115]: "4"
+        - listitem [ref=e116]:
+          - button "..." [ref=e117]
+        - listitem [ref=e118]:
+          - button "Page 53904" [ref=e119]: "53904"
+        - listitem [ref=e120]:
+          - button "Page 53905" [ref=e121]: "53905"
+        - listitem [ref=e122]:
+          - button "Page 53906" [ref=e123]: "53906"
+        - listitem [ref=e124]:
+          - button "Next page" [ref=e125]: Next
+  - complementary [ref=e126]:
+    - paragraph [ref=e127]: DISCOVER OPTIONS
+    - generic [ref=e128]:
+      - paragraph [ref=e129]: Type
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e134]: Movie
+          - textbox [ref=e137]
+        - img [ref=e141]
+      - paragraph [ref=e143]: Genre
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e148]: Select...
+          - textbox [ref=e151]
+        - img [ref=e155]
+      - paragraph [ref=e157]: Year
+      - generic [ref=e158]:
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]: "1900"
+            - textbox [ref=e166]
+          - img [ref=e170]
+        - generic [ref=e172]: "-"
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]: "2024"
+            - textbox [ref=e180]
+          - img [ref=e184]
+      - paragraph [ref=e186]: Ratings
+      - radiogroup [ref=e187]:
+        - listitem [ref=e188] [cursor=pointer]:
+          - radio "★ ★" [ref=e189]:
+            - generic [ref=e190]: ★
+            - generic [ref=e191]: ★
+        - listitem [ref=e192] [cursor=pointer]:
+          - radio "★ ★" [ref=e193]:
+            - generic [ref=e194]: ★
+            - generic [ref=e195]: ★
+        - listitem [ref=e196] [cursor=pointer]:
+          - radio "★ ★" [ref=e197]:
+            - generic [ref=e198]: ★
+            - generic [ref=e199]: ★
+        - listitem [ref=e200] [cursor=pointer]:
+          - radio "★ ★" [ref=e201]:
+            - generic [ref=e202]: ★
+            - generic [ref=e203]: ★
+        - listitem [ref=e204] [cursor=pointer]:
+          - radio "★ ★" [ref=e205]:
+            - generic [ref=e206]: ★
+            - generic [ref=e207]: ★
+      - text: "& up"
+```
